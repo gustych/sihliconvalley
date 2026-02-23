@@ -202,8 +202,8 @@
 }
 
 .crawl-scroll-wrapper {
-  width: 95%;
-  max-width: 1600px;
+  width: 100%;
+  max-width: 2400px;
   text-align: center;
   font-family: 'IBM Plex Mono', monospace;
   transform-origin: 50% 100%;
