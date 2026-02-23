@@ -41,7 +41,7 @@ export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCra
         setPhase('done');
         onPhaseChange?.('done');
         onComplete();
-      }, 2500 + (SCROLL_DURATION * 1000) + 3000));
+      }, 2500 + (SCROLL_DURATION * 1000) + 200));
     } else {
       setPhase('logo-center');
       onPhaseChange?.('logo-center');
@@ -65,7 +65,7 @@ export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCra
         setPhase('done');
         onPhaseChange?.('done');
         onComplete();
-      }, 7000 + (SCROLL_DURATION * 1000) + 3000));
+      }, 7000 + (SCROLL_DURATION * 1000) + 200));
     }
 
     return () => timers.forEach(clearTimeout);
