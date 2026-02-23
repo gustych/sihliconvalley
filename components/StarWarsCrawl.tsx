@@ -41,7 +41,7 @@ export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCra
         setPhase('done');
         onPhaseChange?.('done');
         onComplete();
-      }, 2500 + (SCROLL_DURATION * 1000) + 500));
+      }, 2500 + (SCROLL_DURATION * 1000) + 2000));
     } else {
       setPhase('logo-center');
       onPhaseChange?.('logo-center');
@@ -65,7 +65,7 @@ export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCra
         setPhase('done');
         onPhaseChange?.('done');
         onComplete();
-      }, 7000 + (SCROLL_DURATION * 1000) + 500));
+      }, 7000 + (SCROLL_DURATION * 1000) + 2000));
     }
 
     return () => timers.forEach(clearTimeout);
@@ -110,8 +110,11 @@ export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCra
             <p className="text-yellow-river font-terminal leading-relaxed text-5xl md:text-7xl lg:text-8xl text-center mb-16 md:mb-20">
               {t('crawl.joke')}
             </p>
-            <p className="text-yellow-river font-terminal leading-relaxed text-5xl md:text-7xl lg:text-8xl text-center">
+            <p className="text-yellow-river font-terminal leading-relaxed text-5xl md:text-7xl lg:text-8xl text-center mb-16 md:mb-20">
               {t('crawl.p6')}
+            </p>
+            <p className="text-yellow-river font-terminal leading-relaxed text-5xl md:text-7xl lg:text-8xl text-center">
+              {t('crawl.p7')}
             </p>
           </div>
         </div>
