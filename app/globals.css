@@ -211,8 +211,8 @@
 }
 
 @keyframes scrollUp {
-  0% { transform: rotateX(25deg) translateY(120vh); }
-  100% { transform: rotateX(25deg) translateY(-120%); }
+  0% { transform: rotateX(25deg) translateY(130vh); }
+  100% { transform: rotateX(25deg) translateY(-150%); }
 }
 
 /* Intro text fade */

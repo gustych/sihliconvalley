@@ -41,7 +41,7 @@ export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCra
         setPhase('done');
         onPhaseChange?.('done');
         onComplete();
-      }, 2500 + (SCROLL_DURATION * 1000) + 2000));
+      }, 2500 + (SCROLL_DURATION * 1000) + 3000));
     } else {
       setPhase('logo-center');
       onPhaseChange?.('logo-center');
@@ -65,7 +65,7 @@ export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCra
         setPhase('done');
         onPhaseChange?.('done');
         onComplete();
-      }, 7000 + (SCROLL_DURATION * 1000) + 2000));
+      }, 7000 + (SCROLL_DURATION * 1000) + 3000));
     }
 
     return () => timers.forEach(clearTimeout);
@@ -80,7 +80,7 @@ export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCra
           className="absolute inset-0 flex items-center justify-center z-10"
           style={{ animation: 'introFade 2.5s ease-in-out forwards' }}
         >
-          <p className="text-yellow-river font-terminal tracking-[0.15em] text-center px-6 md:px-12 uppercase leading-relaxed text-7xl md:text-9xl lg:text-9xl" style={{ fontSize: 'clamp(4.5rem, 8vw, 10rem)' }}>
+          <p className="text-yellow-river font-terminal tracking-[0.15em] text-center px-6 md:px-12 uppercase leading-relaxed text-3xl md:text-5xl lg:text-6xl">
             {t('crawl.intro')}
           </p>
         </div>
@@ -92,28 +92,28 @@ export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCra
             className="crawl-scroll-wrapper"
             style={{ '--scroll-duration': `${SCROLL_DURATION}s` } as React.CSSProperties}
           >
-            <p className="text-yellow-river font-terminal leading-relaxed text-6xl md:text-8xl lg:text-9xl text-center mb-16 md:mb-20">
+            <p className="text-yellow-river font-terminal leading-relaxed text-center mb-16 md:mb-20" style={{ fontSize: 'clamp(5rem, 12vw, 16rem)' }}>
               {t('crawl.p1')}
             </p>
-            <p className="text-yellow-river font-terminal leading-relaxed text-6xl md:text-8xl lg:text-9xl text-center mb-16 md:mb-20">
+            <p className="text-yellow-river font-terminal leading-relaxed text-center mb-16 md:mb-20" style={{ fontSize: 'clamp(5rem, 12vw, 16rem)' }}>
               {t('crawl.p2')}
             </p>
-            <p className="text-yellow-river font-terminal leading-relaxed text-6xl md:text-8xl lg:text-9xl text-center mb-16 md:mb-20">
+            <p className="text-yellow-river font-terminal leading-relaxed text-center mb-16 md:mb-20" style={{ fontSize: 'clamp(5rem, 12vw, 16rem)' }}>
               {t('crawl.p3')}
             </p>
-            <p className="text-yellow-river font-terminal leading-relaxed text-6xl md:text-8xl lg:text-9xl text-center mb-16 md:mb-20">
+            <p className="text-yellow-river font-terminal leading-relaxed text-center mb-16 md:mb-20" style={{ fontSize: 'clamp(5rem, 12vw, 16rem)' }}>
               {t('crawl.p4')}
             </p>
-            <p className="text-yellow-river font-terminal leading-relaxed text-6xl md:text-8xl lg:text-9xl text-center mb-40 md:mb-56">
+            <p className="text-yellow-river font-terminal leading-relaxed text-center mb-40 md:mb-56" style={{ fontSize: 'clamp(5rem, 12vw, 16rem)' }}>
               {t('crawl.p5')}
             </p>
-            <p className="text-yellow-river font-terminal leading-relaxed text-6xl md:text-8xl lg:text-9xl text-center mb-20 md:mb-28">
+            <p className="text-yellow-river font-terminal leading-relaxed text-center mb-20 md:mb-28" style={{ fontSize: 'clamp(5rem, 12vw, 16rem)' }}>
               {t('crawl.joke')}
             </p>
-            <p className="text-yellow-river font-terminal leading-relaxed text-6xl md:text-8xl lg:text-9xl text-center mb-20 md:mb-28">
+            <p className="text-yellow-river font-terminal leading-relaxed text-center mb-20 md:mb-28" style={{ fontSize: 'clamp(5rem, 12vw, 16rem)' }}>
               {t('crawl.p6')}
             </p>
-            <p className="text-yellow-river font-terminal leading-relaxed text-6xl md:text-8xl lg:text-9xl text-center">
+            <p className="text-yellow-river font-terminal leading-relaxed text-center" style={{ fontSize: 'clamp(5rem, 12vw, 16rem)' }}>
               {t('crawl.p7')}
             </p>
           </div>
