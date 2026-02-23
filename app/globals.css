@@ -89,7 +89,8 @@
     510px 640px #ffffff20, 590px 720px #ffffff30, 670px 690px #ffffff18,
     750px 760px #ffffff25, 830px 650px #ffffff22, 910px 730px #ffffff28,
     990px 670px #ffffff20, 1070px 710px #ffffff30, 1150px 680px #ffffff18;
-  animation: twinkle 4s ease-in-out infinite alternate;
+  animation: twinkle 4s ease-in-out infinite alternate,
+             starsDepth 1s ease-out;
 }
 
 .stars-medium {
@@ -104,7 +105,8 @@
     60px 550px 1px #ffffff38, 240px 620px 1px #ffffff30, 420px 580px 1px #ffffff42,
     600px 650px 1px #ffffff35, 780px 570px 1px #ffffff38, 960px 640px 1px #ffffff30,
     1140px 590px 1px #ffffff42, 1320px 660px 1px #ffffff35;
-  animation: twinkle 6s ease-in-out infinite alternate-reverse;
+  animation: twinkle 6s ease-in-out infinite alternate-reverse,
+             starsDepth 1.2s ease-out 0.15s;
 }
 
 .stars-large {
@@ -115,13 +117,20 @@
     580px 500px 2px #ffffff50, 910px 380px 2px #ffffff45, 1240px 480px 2px #ffffff55,
     100px 650px 2px #ffffff48, 430px 600px 2px #ffffff50, 760px 680px 2px #ffffff45,
     1090px 620px 2px #ffffff55, 1420px 560px 2px #ffffff48;
-  animation: twinkle 8s ease-in-out infinite alternate;
+  animation: twinkle 8s ease-in-out infinite alternate,
+             starsDepth 1.4s ease-out 0.3s;
 }
 
 @keyframes twinkle {
   0% { opacity: 0.6; }
   50% { opacity: 1; }
   100% { opacity: 0.7; }
+}
+
+/* Parallax depth for stars */
+@keyframes starsDepth {
+  from { transform: scale(1.08); opacity: 0.85; }
+  to { transform: scale(1); opacity: 1; }
 }
 
 /* ===== Logo fly animation (desktop) ===== */
@@ -162,7 +171,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   overflow: hidden;
   z-index: 40;
   background: transparent;
@@ -216,12 +225,18 @@
 
 /* Projects fade in */
 @keyframes projectsFadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .projects-enter {
-  animation: projectsFadeIn 0.8s ease-out forwards;
+  animation: projectsFadeIn 1.2s ease-out forwards;
 }
 
 @layer utilities {
