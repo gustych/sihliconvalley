@@ -10,7 +10,7 @@ interface StarWarsCrawlProps {
   onPhaseChange?: (phase: Phase) => void;
 }
 
-const SCROLL_DURATION = 43.0; // 20% slower than previous 35.8s
+const SCROLL_DURATION = 60.2; // 40% slower than previous 43s
 
 export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCrawlProps) {
   const { t } = useI18n();
