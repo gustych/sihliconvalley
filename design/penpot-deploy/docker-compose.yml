@@ -1,0 +1,86 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: penpot-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${PENPOT_DB_NAME}
+      POSTGRES_USER: ${PENPOT_DB_USER}
+      POSTGRES_PASSWORD: ${PENPOT_DB_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    container_name: penpot-redis
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+
+  backend:
+    image: penpotapp/backend:latest
+    container_name: penpot-backend
+    restart: unless-stopped
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      PENPOT_PUBLIC_URI: ${PENPOT_PUBLIC_URI}
+      PENPOT_SECRET_KEY: ${PENPOT_SECRET_KEY}
+      PENPOT_HTTP_SERVER_HOST: 0.0.0.0
+      PENPOT_DATABASE_URI: postgresql://postgres:5432/${PENPOT_DB_NAME}
+      PENPOT_DATABASE_USERNAME: ${PENPOT_DB_USER}
+      PENPOT_DATABASE_PASSWORD: ${PENPOT_DB_PASSWORD}
+      PENPOT_REDIS_URI: redis://redis:6379/0
+      PENPOT_FLAGS: ${PENPOT_FLAGS}
+      PENPOT_OBJECTS_STORAGE_BACKEND: fs
+      PENPOT_OBJECTS_STORAGE_FS_DIRECTORY: /opt/data/objects
+    volumes:
+      - penpot_objects:/opt/data/objects
+
+  exporter:
+    image: penpotapp/exporter:latest
+    container_name: penpot-exporter
+    restart: unless-stopped
+    depends_on:
+      - redis
+    environment:
+      PENPOT_PUBLIC_URI: ${PENPOT_PUBLIC_URI}
+      PENPOT_SECRET_KEY: ${PENPOT_SECRET_KEY}
+      PENPOT_REDIS_URI: redis://redis:6379/0
+
+  frontend:
+    image: penpotapp/frontend:latest
+    container_name: penpot-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+      - exporter
+    environment:
+      PENPOT_PUBLIC_URI: ${PENPOT_PUBLIC_URI}
+      PENPOT_BACKEND_URI: http://backend:6060
+      PENPOT_EXPORTER_URI: http://exporter:6061
+      PENPOT_FLAGS: ${PENPOT_FLAGS}
+
+  caddy:
+    image: caddy:2-alpine
+    container_name: penpot-caddy
+    restart: unless-stopped
+    depends_on:
+      - frontend
+    environment:
+      TLS_EMAIL: ${TLS_EMAIL}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  postgres_data:
+  redis_data:
+  penpot_objects:
+  caddy_data:
+  caddy_config:

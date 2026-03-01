@@ -1,0 +1,7 @@
+{
+  email {env.TLS_EMAIL}
+}
+
+design.sihliconvalley.ch {
+  reverse_proxy frontend:8080
+}

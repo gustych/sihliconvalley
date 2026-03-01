@@ -1,0 +1,26 @@
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - img
+  - generic [ref=e3057]:
+    - button "Go to your Penpot" [ref=e3058] [cursor=pointer]:
+      - img [ref=e3059]
+      - generic [ref=e3061]:
+        - img [ref=e3062]
+        - generic [ref=e3064]: Go to your Penpot
+    - img [ref=e3065]
+    - generic [ref=e3068]:
+      - generic [ref=e3069]: Internal Error
+      - generic [ref=e3070]:
+        - paragraph [ref=e3071]: Something bad happened.
+        - paragraph [ref=e3072]: You can retry the operation or contact support to report the error.
+      - generic [ref=e3073] [cursor=pointer]: Download report.txt
+      - generic [ref=e3074]:
+        - button "Contact support" [ref=e3075]:
+          - generic [ref=e3076]: Contact support
+        - button "Retry" [ref=e3077]:
+          - generic [ref=e3078]: Retry
+    - generic [ref=e3079]:
+      - generic [ref=e3080]: Kaleidos © 2019-present
+      - img [ref=e3081]
+      - generic [ref=e3083]: Made with LOVE and Open Source

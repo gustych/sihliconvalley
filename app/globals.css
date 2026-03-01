@@ -1,3 +1,5 @@
+@import "../design-system/base.css";
+@import "../design-system/sihliconvalley.css";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css');
 @tailwind base;
@@ -6,8 +8,8 @@
 
 @layer base {
   body {
-    background-color: #000000;
-    color: #cccccc;
+    background-color: rgb(var(--color-navy-bg));
+    color: rgb(var(--color-light-gray));
     overflow-x: hidden;
   }
 
@@ -196,7 +198,7 @@
   left: 0;
   right: 0;
   height: 50%;
-  background: linear-gradient(to bottom, #000000 20%, transparent 100%);
+  background: linear-gradient(to bottom, rgb(var(--color-navy-bg)) 20%, transparent 100%);
   pointer-events: none;
   z-index: 10;
 }
@@ -248,7 +250,7 @@
       width: 12px;
       height: 12px;
       border-radius: 50%;
-      background-color: #E63B2E;
+      background-color: rgb(var(--color-red-dot));
       pointer-events: none;
       z-index: 9999;
       transform: translate(-50%, -50%);
@@ -259,7 +261,7 @@
       width: 40px;
       height: 40px;
       background-color: rgba(230, 59, 46, 0.1);
-      border: 2px solid #E63B2E;
+      border: 2px solid rgb(var(--color-red-dot));
     }
   }
 
@@ -269,7 +271,7 @@
   }
 
   *:focus-visible {
-    outline: 2px solid #E63B2E;
+    outline: 2px solid rgb(var(--color-red-dot));
     outline-offset: 2px;
   }
 
@@ -341,7 +343,7 @@
     position: absolute;
     left: 0;
     height: 1.5px;
-    background: linear-gradient(90deg, transparent 0%, #E63B2E 20%, #E63B2E 80%, transparent 100%);
+    background: linear-gradient(90deg, transparent 0%, rgb(var(--color-red-dot)) 20%, rgb(var(--color-red-dot)) 80%, transparent 100%);
     animation: windLineSweep 1.5s ease-in-out 3 forwards;
   }
 
@@ -410,7 +412,7 @@
   }
 
   .live-status-button {
-    background-color: #22c55e;
+    background-color: rgb(var(--color-fund-green));
     color: white;
     animation: pulse-green 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
     transition: background-color 0.2s ease;
@@ -418,10 +420,10 @@
 
   .live-status-button:hover {
     animation: none;
-    background-color: #16a34a;
+    background-color: rgb(var(--color-fund-green));
   }
 
   .live-status-button:active {
-    background-color: #15803d;
+    background-color: rgb(var(--color-fund-green));
   }
 }

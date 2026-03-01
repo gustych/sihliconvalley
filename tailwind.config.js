@@ -1,35 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+const preset = require('./design-system/preset.cjs');
+
 module.exports = {
+  presets: [preset],
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  theme: {
-    extend: {
-      colors: {
-        'deep-pink': '#D9366B',
-        'teal': '#2A7C82',
-        'sun-red': '#E62F2D',
-        'brand-black': '#1A1A1A',
-        'brand-white': '#FFFFFF',
-        'off-white': '#F5F3E8',
-        'navy-bg': '#000000',
-        'purple': '#6B4C8A',
-        'red-dot': '#E63B2E',
-        'yellow-river': '#E0D54A',
-        'mint-text': '#5CE0B8',
-        'light-gray': '#cccccc',
-      },
-      fontFamily: {
-        'stylish': ['Playfair Display', 'serif'],
-        'terminal': ['IBM Plex Mono', 'monospace'],
-        'erratic': ['Permanent Marker', 'cursive'],
-      },
-    },
-  },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
   ],
 }
-

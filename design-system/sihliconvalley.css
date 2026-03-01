@@ -1,0 +1,25 @@
+:root[data-brand="sihliconvalley"] {
+  --brand-name: "sihliconvalley";
+  --token-accent-primary-rgb: var(--token-color-mint-rgb);
+  --token-accent-secondary-rgb: var(--token-color-yellow-river-rgb);
+  --token-accent-tertiary-rgb: var(--token-color-red-dot-rgb);
+  --token-bg-base-rgb: var(--token-color-navy-bg-rgb);
+  --token-text-primary-rgb: var(--token-color-light-gray-rgb);
+  --token-logo-bg-rgb: var(--token-bg-base-rgb);
+  --token-logo-mountain-rgb: var(--token-color-oil-dark-rgb);
+  --token-logo-road-primary-rgb: var(--token-accent-secondary-rgb);
+  --token-logo-road-secondary-rgb: var(--token-accent-primary-rgb);
+  --token-logo-sun-rgb: var(--token-accent-tertiary-rgb);
+  --token-logo-wordmark-rgb: var(--token-text-primary-rgb);
+  --brand-accent-primary: rgb(var(--token-accent-primary-rgb));
+  --brand-accent-secondary: rgb(var(--token-accent-secondary-rgb));
+  --brand-accent-tertiary: rgb(var(--token-accent-tertiary-rgb));
+  --brand-bg: rgb(var(--token-bg-base-rgb));
+  --brand-text: rgb(var(--token-text-primary-rgb));
+  --token-logo-bg: rgb(var(--token-logo-bg-rgb));
+  --token-logo-mountain: rgb(var(--token-logo-mountain-rgb));
+  --token-logo-road-primary: rgb(var(--token-logo-road-primary-rgb));
+  --token-logo-road-secondary: rgb(var(--token-logo-road-secondary-rgb));
+  --token-logo-sun: rgb(var(--token-logo-sun-rgb));
+  --token-logo-wordmark: rgb(var(--token-logo-wordmark-rgb));
+}

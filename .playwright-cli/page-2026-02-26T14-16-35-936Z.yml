@@ -1,0 +1,155 @@
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - img
+  - generic [ref=e1539]:
+    - list [ref=e1543]:
+      - listitem [ref=e1544]:
+        - button "Color Palette (⌥P)" [ref=e1545] [cursor=pointer]:
+          - img [ref=e1546]
+      - listitem [ref=e1548]:
+        - button "Typographies (⌥T)" [ref=e1549] [cursor=pointer]:
+          - img [ref=e1550]
+    - generic [ref=e1556]:
+      - complementary [ref=e1557]:
+        - list [ref=e1558]:
+          - listitem [ref=e1559]:
+            - button "Move (V)" [ref=e1560] [cursor=pointer]:
+              - img [ref=e1561]
+          - listitem [ref=e1563]:
+            - button "Board (B)" [ref=e1564] [cursor=pointer]:
+              - img [ref=e1565]
+          - listitem [ref=e1567]:
+            - button "Rectangle (R)" [ref=e1568] [cursor=pointer]:
+              - img [ref=e1569]
+          - listitem [ref=e1571]:
+            - button "Ellipse (E)" [ref=e1572] [cursor=pointer]:
+              - img [ref=e1573]
+          - listitem [ref=e1575]:
+            - button "Text (T)" [ref=e1576] [cursor=pointer]:
+              - img [ref=e1577]
+          - listitem [ref=e1579]:
+            - button "Image (⇧K)" [ref=e1580] [cursor=pointer]:
+              - img [ref=e1581]
+          - listitem [ref=e1583]:
+            - button "Curve (⇧C)" [ref=e1584] [cursor=pointer]:
+              - img [ref=e1585]
+          - listitem [ref=e1587]:
+            - button "Path (P)" [ref=e1588] [cursor=pointer]:
+              - img [ref=e1589]
+          - listitem [ref=e1591]:
+            - button "Plugins (⌘⌥P)" [ref=e1592] [cursor=pointer]:
+              - img [ref=e1593]
+        - button "Toggle toolbar" [ref=e1595] [cursor=pointer]
+      - generic:
+        - img
+      - img
+      - img [ref=e1597]:
+        - generic [ref=e1598]:
+          - generic:
+            - generic:
+              - generic:
+                - text: "0"
+                - text: "50"
+                - text: "100"
+                - text: "150"
+                - text: "200"
+                - text: "250"
+                - text: "300"
+                - text: "350"
+                - text: "400"
+                - text: "450"
+                - text: "500"
+                - text: "550"
+                - text: "600"
+              - generic:
+                - text: "0"
+                - text: "50"
+                - text: "100"
+                - text: "150"
+                - text: "200"
+                - text: "250"
+                - text: "300"
+                - text: "350"
+                - text: "400"
+                - text: "450"
+                - text: "500"
+                - text: "550"
+                - text: "600"
+                - text: "650"
+                - text: "700"
+    - complementary [ref=e1601]:
+      - generic [ref=e1602]:
+        - img [ref=e1604] [cursor=pointer]
+        - generic [ref=e1606]:
+          - generic [ref=e1607] [cursor=pointer]: Design System
+          - generic "New File 4" [ref=e1608] [cursor=pointer]:
+            - generic [ref=e1610]: New File 4
+        - button "Main menu" [ref=e1613]:
+          - img [ref=e1614]
+      - generic [ref=e1618]:
+        - navigation [ref=e1620]:
+          - button "Collapse sidebar" [ref=e1621] [cursor=pointer]:
+            - img "Collapse sidebar" [ref=e1622]
+          - tablist [ref=e1624]:
+            - listitem [ref=e1625]:
+              - tab "Layers" [selected] [ref=e1626]:
+                - generic [ref=e1627]: Layers
+            - listitem [ref=e1628]:
+              - tab "Assets" [ref=e1629]:
+                - generic [ref=e1630]: Assets
+            - listitem [ref=e1631]:
+              - tab "Tokens" [ref=e1632]:
+                - generic [ref=e1633]: Tokens
+        - tabpanel "Layers" [ref=e1634]:
+          - article [ref=e1635]:
+            - generic [ref=e1636]:
+              - generic [ref=e1637]:
+                - button "Pages" [ref=e1639] [cursor=pointer]:
+                  - img [ref=e1640]
+                  - generic [ref=e1642]: Pages
+                - button "Add page" [ref=e1644]:
+                  - img [ref=e1645]
+              - list [ref=e1648]:
+                - listitem [ref=e1649] [cursor=pointer]:
+                  - generic [ref=e1650]:
+                    - img [ref=e1652]
+                    - generic "Page 1" [ref=e1654]
+            - generic [ref=e1659]:
+              - generic [ref=e1660]: Page 1
+              - button "Search" [ref=e1662]:
+                - img [ref=e1663]
+    - complementary [ref=e1666]:
+      - generic [ref=e1667]:
+        - button "Gueney Usta" [ref=e1669] [cursor=pointer]:
+          - list [ref=e1670]:
+            - listitem "Gueney Usta" [ref=e1671]:
+              - img "Gueney Usta" [ref=e1672]
+        - generic "Zoom" [ref=e1674] [cursor=pointer]:
+          - generic [ref=e1675]: 100%
+        - button "Comments (C)" [ref=e1677] [cursor=pointer]:
+          - img [ref=e1678]
+        - button "History" [ref=e1681] [cursor=pointer]:
+          - img [ref=e1682]
+        - generic "View mode (G V)" [ref=e1684] [cursor=pointer]:
+          - img [ref=e1685]
+      - generic [ref=e1689]:
+        - navigation [ref=e1691]:
+          - tablist [ref=e1692]:
+            - listitem [ref=e1693]:
+              - tab "Design" [selected] [ref=e1694]:
+                - generic [ref=e1695]: Design
+            - listitem [ref=e1696]:
+              - tab "Prototype" [ref=e1697]:
+                - generic [ref=e1698]: Prototype
+            - listitem [ref=e1699]:
+              - tab "Inspect" [ref=e1700]:
+                - generic [ref=e1701]: Inspect
+        - tabpanel "Design" [ref=e1702]:
+          - generic [ref=e1704]:
+            - generic [ref=e1707]: Canvas background
+            - generic [ref=e1711]:
+              - button "#E8E9EA" [ref=e1714] [cursor=pointer]
+              - textbox "Color" [ref=e1719]:
+                - /placeholder: Mixed
+                - text: E8E9EA

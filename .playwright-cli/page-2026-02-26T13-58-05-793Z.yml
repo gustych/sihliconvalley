@@ -1,0 +1,29 @@
+- generic [ref=e1]:
+  - img
+  - img
+  - img
+  - main [ref=e3]:
+    - heading "Penpot" [level=1] [ref=e4]:
+      - link "Penpot" [ref=e5] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e6]
+    - img [ref=e9]
+    - generic [ref=e12]:
+      - heading "Log into my account" [level=1] [ref=e13]
+      - paragraph [ref=e14]: Penpot is the free open-source design tool for Design and Code collaboration
+      - generic [ref=e15]:
+        - generic [ref=e18] [cursor=pointer]:
+          - text: Work email
+          - textbox "Work email" [ref=e20]
+        - generic [ref=e23] [cursor=pointer]:
+          - text: Password
+          - generic [ref=e24]:
+            - textbox "Password" [active] [ref=e25]
+            - img [ref=e27]
+        - generic [ref=e30] [cursor=pointer]: Forgot password?
+        - button "Continue" [disabled] [ref=e32]:
+          - generic [ref=e33]: Continue
+      - separator [ref=e34]
+      - generic [ref=e36]:
+        - generic [ref=e37]: No account yet?
+        - generic [ref=e38] [cursor=pointer]: Create an account

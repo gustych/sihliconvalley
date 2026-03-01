@@ -1,0 +1,197 @@
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - img
+  - main [ref=e39]:
+    - navigation [ref=e40]:
+      - generic [ref=e41]:
+        - button "Your Penpot" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]:
+            - img [ref=e47]
+            - generic [ref=e49]: Your Penpot
+          - img [ref=e50]
+        - generic [ref=e52]:
+          - textbox "Search…" [ref=e53]
+          - button "dashboard-search" [ref=e54] [cursor=pointer]:
+            - img [ref=e55]
+        - list [ref=e58]:
+          - listitem [ref=e59] [cursor=pointer]:
+            - generic [ref=e61]: Projects
+          - listitem [ref=e62] [cursor=pointer]:
+            - generic [ref=e64]: Drafts
+        - generic [ref=e65]:
+          - generic [ref=e66]: Sources
+          - list [ref=e67]:
+            - listitem [ref=e68] [cursor=pointer]:
+              - generic [ref=e70]: Fonts
+            - listitem [ref=e71] [cursor=pointer]:
+              - generic [ref=e73]: Libraries
+        - generic [ref=e74]:
+          - generic [ref=e75]: Pinned Projects
+          - generic [ref=e76]:
+            - img [ref=e77]
+            - generic [ref=e79]: Pinned projects will appear here
+      - generic [ref=e81] [cursor=pointer]:
+        - button "Gueney Usta Gueney Usta" [ref=e82]:
+          - img "Gueney Usta" [ref=e83]
+          - generic [ref=e84]: Gueney Usta
+        - button "View notifications" [ref=e87]:
+          - img [ref=e88]
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - heading "Projects" [level=1] [ref=e93]
+        - button "+ New project" [ref=e94] [cursor=pointer]
+      - generic [ref=e96]:
+        - generic [ref=e98]:
+          - generic [ref=e99] [cursor=pointer]: Recent
+          - generic [ref=e100] [cursor=pointer]: Deleted
+        - article [ref=e101]:
+          - generic [ref=e103]:
+            - heading "Design System" [level=2] [ref=e104] [cursor=pointer]
+            - generic [ref=e105]:
+              - generic [ref=e106]: 4 files, 18 minutes ago
+              - generic [ref=e107]:
+                - button "Pin/Unpin" [ref=e108] [cursor=pointer]:
+                  - img [ref=e109]
+                - button "+ New File" [ref=e111] [cursor=pointer]:
+                  - img [ref=e112]
+                - button "Options" [ref=e114] [cursor=pointer]:
+                  - img [ref=e115]
+          - list [ref=e119]:
+            - listitem [ref=e120] [cursor=pointer]:
+              - button "00 Tokens 18 minutes ago Options" [ref=e121]:
+                - img [ref=e123]
+                - generic [ref=e124]:
+                  - generic [ref=e125]:
+                    - heading "00 Tokens" [level=3] [ref=e126]
+                    - generic "Will be deleted 18 minutes ago" [ref=e127]: 18 minutes ago
+                  - button "Options" [ref=e129]:
+                    - img [ref=e130]
+            - listitem [ref=e132] [cursor=pointer]:
+              - button "01 Logo 60 minutes ago Options" [ref=e133]:
+                - img [ref=e135]
+                - generic [ref=e136]:
+                  - generic [ref=e137]:
+                    - heading "01 Logo" [level=3] [ref=e138]
+                    - generic "Will be deleted 60 minutes ago" [ref=e139]: 60 minutes ago
+                  - button "Options" [ref=e141]:
+                    - img [ref=e142]
+            - listitem [ref=e144] [cursor=pointer]:
+              - button "02 Components 1 hour ago Options" [ref=e145]:
+                - img [ref=e147]
+                - generic [ref=e148]:
+                  - generic [ref=e149]:
+                    - heading "02 Components" [level=3] [ref=e150]
+                    - generic "Will be deleted 1 hour ago" [ref=e151]: 1 hour ago
+                  - button "Options" [ref=e153]:
+                    - img [ref=e154]
+            - listitem [ref=e156] [cursor=pointer]:
+              - button "99 Sandbox 1 hour ago Options" [ref=e157]:
+                - img [ref=e159]
+                - generic [ref=e160]:
+                  - generic [ref=e161]:
+                    - heading "99 Sandbox" [level=3] [ref=e162]
+                    - generic "Will be deleted 1 hour ago" [ref=e163]: 1 hour ago
+                  - button "Options" [ref=e165]:
+                    - img [ref=e166]
+        - article [ref=e168]:
+          - generic [ref=e170]:
+            - heading "Drafts" [level=2] [ref=e171] [cursor=pointer]
+            - generic [ref=e172]:
+              - generic [ref=e173]: 0 files, 2 hours ago
+              - generic [ref=e174]:
+                - button "+ New File" [ref=e175] [cursor=pointer]:
+                  - img [ref=e176]
+                - button "Options" [ref=e178] [cursor=pointer]:
+                  - img [ref=e179]
+          - button [ref=e184] [cursor=pointer]:
+            - img [ref=e185]
+      - generic:
+        - button "Libraries & Templates Hide" [ref=e188] [cursor=pointer]:
+          - generic [ref=e189]: Libraries & Templates
+          - generic [ref=e190]:
+            - text: Hide
+            - img [ref=e192]
+        - paragraph: Here you have some Libraries and templates you can add to your project
+        - generic [ref=e194]:
+          - generic [ref=e196] [cursor=pointer]:
+            - img "Design tokens starter kit" [ref=e198]
+            - generic [ref=e199]:
+              - generic [ref=e200]: Design tokens starter kit
+              - img [ref=e201]
+          - generic [ref=e204] [cursor=pointer]:
+            - img "Penpot Design System | Pencil" [ref=e206]
+            - generic [ref=e207]:
+              - generic [ref=e208]: Penpot Design System | Pencil
+              - img [ref=e209]
+          - generic [ref=e212] [cursor=pointer]:
+            - img "Wireframe library" [ref=e214]
+            - generic [ref=e215]:
+              - generic [ref=e216]: Wireframe library
+              - img [ref=e217]
+          - generic [ref=e220] [cursor=pointer]:
+            - img "Prototype template" [ref=e222]
+            - generic [ref=e223]:
+              - generic [ref=e224]: Prototype template
+              - img [ref=e225]
+          - generic [ref=e228] [cursor=pointer]:
+            - generic [ref=e229]:
+              - img "UI mockup example"
+            - generic [ref=e230]:
+              - generic [ref=e231]: UI mockup example
+              - img [ref=e232]
+          - generic [ref=e235] [cursor=pointer]:
+            - generic [ref=e236]:
+              - img "Lucide Icons"
+            - generic [ref=e237]:
+              - generic [ref=e238]: Lucide Icons
+              - img [ref=e239]
+          - generic [ref=e242] [cursor=pointer]:
+            - generic [ref=e243]:
+              - img "Font Awesome"
+            - generic [ref=e244]:
+              - generic [ref=e245]: Font Awesome
+              - img [ref=e246]
+          - generic [ref=e249] [cursor=pointer]:
+            - generic [ref=e250]:
+              - img "Black & White Mobile Templates"
+            - generic [ref=e251]:
+              - generic [ref=e252]: Black & White Mobile Templates
+              - img [ref=e253]
+          - generic [ref=e256] [cursor=pointer]:
+            - generic [ref=e257]:
+              - img "Avataaars"
+            - generic [ref=e258]:
+              - generic [ref=e259]: Avataaars
+              - img [ref=e260]
+          - generic [ref=e263] [cursor=pointer]:
+            - generic [ref=e264]:
+              - img "UX Notes"
+            - generic [ref=e265]:
+              - generic [ref=e266]: UX Notes
+              - img [ref=e267]
+          - generic [ref=e270] [cursor=pointer]:
+            - generic [ref=e271]:
+              - img "Whiteboarding Kit"
+            - generic [ref=e272]:
+              - generic [ref=e273]: Whiteboarding Kit
+              - img [ref=e274]
+          - generic [ref=e277] [cursor=pointer]:
+            - generic [ref=e278]:
+              - img "Open Color Scheme"
+            - generic [ref=e279]:
+              - generic [ref=e280]: Open Color Scheme
+              - img [ref=e281]
+          - generic [ref=e284] [cursor=pointer]:
+            - generic [ref=e285]:
+              - img "Flex Layout Playground"
+            - generic [ref=e286]:
+              - generic [ref=e287]: Flex Layout Playground
+              - img [ref=e288]
+          - link "Libraries & Templates Explore more of them and know how to contribute" [ref=e293] [cursor=pointer]:
+            - /url: https://penpot.app/libraries-templates
+            - generic [ref=e294]:
+              - generic [ref=e295]: Libraries & Templates
+              - generic [ref=e296]: Explore more of them and know how to contribute
+        - button "Next" [ref=e297] [cursor=pointer]:
+          - img [ref=e298]

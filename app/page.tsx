@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
-import Image from 'next/image';
 import StarWarsCrawl from '@/components/StarWarsCrawl';
 import LanguageToggle from '@/components/LanguageToggle';
 import { useI18n } from '@/lib/i18n';
@@ -116,13 +115,10 @@ export default function Home() {
       <LanguageToggle />
 
       <div style={getLogoStyle()}>
-        <Image
-          src="/logo-icon.png"
+        <img
+          src="/design-tokens/logos/sihliconvalley/icon.svg"
           alt="Sihliconvalley"
-          width={160}
-          height={160}
           className="w-full h-full object-contain rounded-full"
-          priority
         />
       </div>
 

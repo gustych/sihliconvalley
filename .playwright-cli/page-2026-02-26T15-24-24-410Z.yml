@@ -1,0 +1,383 @@
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - img
+  - generic [ref=e300]:
+    - list [ref=e304]:
+      - listitem [ref=e305]:
+        - button "Color Palette (⌥P)" [ref=e306] [cursor=pointer]:
+          - img [ref=e307]
+      - listitem [ref=e309]:
+        - button "Typographies (⌥T)" [ref=e310] [cursor=pointer]:
+          - img [ref=e311]
+    - generic [ref=e317]:
+      - complementary [ref=e318]:
+        - list [ref=e319]:
+          - listitem [ref=e320]:
+            - button "Move (V)" [ref=e321] [cursor=pointer]:
+              - img [ref=e322]
+          - listitem [ref=e324]:
+            - button "Board (B)" [ref=e325] [cursor=pointer]:
+              - img [ref=e326]
+          - listitem [ref=e328]:
+            - button "Rectangle (R)" [ref=e329] [cursor=pointer]:
+              - img [ref=e330]
+          - listitem [ref=e332]:
+            - button "Ellipse (E)" [ref=e333] [cursor=pointer]:
+              - img [ref=e334]
+          - listitem [ref=e336]:
+            - button "Text (T)" [ref=e337] [cursor=pointer]:
+              - img [ref=e338]
+          - listitem [ref=e340]:
+            - button "Image (⇧K)" [ref=e341] [cursor=pointer]:
+              - img [ref=e342]
+          - listitem [ref=e344]:
+            - button "Curve (⇧C)" [ref=e345] [cursor=pointer]:
+              - img [ref=e346]
+          - listitem [ref=e348]:
+            - button "Path (P)" [ref=e349] [cursor=pointer]:
+              - img [ref=e350]
+          - listitem [ref=e352]:
+            - button "Plugins (⌘⌥P)" [ref=e353] [cursor=pointer]:
+              - img [ref=e354]
+        - button "Toggle toolbar" [ref=e356] [cursor=pointer]
+      - generic:
+        - img
+      - img
+      - img [ref=e358]:
+        - generic [ref=e359]:
+          - generic:
+            - generic:
+              - generic:
+                - text: "0"
+                - text: "50"
+                - text: "100"
+                - text: "150"
+                - text: "200"
+                - text: "250"
+                - text: "300"
+                - text: "350"
+                - text: "400"
+                - text: "450"
+                - text: "500"
+                - text: "550"
+                - text: "600"
+              - generic:
+                - text: "0"
+                - text: "50"
+                - text: "100"
+                - text: "150"
+                - text: "200"
+                - text: "250"
+                - text: "300"
+                - text: "350"
+                - text: "400"
+                - text: "450"
+                - text: "500"
+                - text: "550"
+                - text: "600"
+                - text: "650"
+                - text: "700"
+    - complementary [ref=e362]:
+      - generic [ref=e363]:
+        - img [ref=e365] [cursor=pointer]
+        - generic [ref=e367]:
+          - generic [ref=e368] [cursor=pointer]: Design System
+          - generic "00 Tokens" [ref=e369] [cursor=pointer]:
+            - generic "Saved" [ref=e1033]:
+              - img [ref=e718]
+            - generic [ref=e371]: 00 Tokens
+        - button "Main menu" [ref=e374]:
+          - img [ref=e375]
+      - generic [ref=e379]:
+        - navigation [ref=e381]:
+          - button "Collapse sidebar" [ref=e382] [cursor=pointer]:
+            - img "Collapse sidebar" [ref=e383]
+          - tablist [ref=e385]:
+            - listitem [ref=e386]:
+              - tab "Layers" [ref=e387]:
+                - generic [ref=e388]: Layers
+            - listitem [ref=e389]:
+              - tab "Assets" [ref=e390]:
+                - generic [ref=e391]: Assets
+            - listitem [ref=e392]:
+              - tab "Tokens" [selected] [ref=e393]:
+                - generic [ref=e394]: Tokens
+        - tabpanel "Tokens" [ref=e395]:
+          - generic [ref=e396]:
+            - generic [ref=e397]:
+              - generic [ref=e398]:
+                - generic [ref=e399]: Themes
+                - generic [ref=e400]:
+                  - text: There are no themes.
+                  - button "Create one." [ref=e401] [cursor=pointer]
+              - generic [ref=e403]:
+                - generic [ref=e404]: Sets
+                - button "Add set" [ref=e406]:
+                  - img [ref=e407]
+              - generic [ref=e409]:
+                - button "primitive" [ref=e410] [cursor=pointer]:
+                  - img [ref=e411]
+                  - generic [ref=e413]: primitive
+                  - checkbox [ref=e414]
+                - button "semantic" [ref=e415] [cursor=pointer]:
+                  - img [ref=e416]
+                  - generic [ref=e418]: semantic
+                  - checkbox [ref=e419]
+                - button "brand" [ref=e420] [cursor=pointer]:
+                  - img [ref=e421]
+                  - generic [ref=e423]: brand
+                  - checkbox [ref=e424]
+            - article [ref=e425]:
+              - generic [ref=e428]:
+                - generic [ref=e429]: TOKENS - brand
+                - generic "This set is not active. Change theme or activate this set to see changes in the viewport" [ref=e430]:
+                  - img [ref=e431]
+                  - generic [ref=e433]: Inactive
+              - generic [ref=e849]:
+                - generic [ref=e850]:
+                  - button "Color 20" [ref=e852] [cursor=pointer]:
+                    - img [ref=e853]
+                    - generic [ref=e856]:
+                      - img [ref=e858]
+                      - generic [ref=e860]: Color
+                      - generic [ref=e861]: "20"
+                  - 'button "Add token: Color" [ref=e863]':
+                    - img [ref=e864]
+                - generic [ref=e867]:
+                  - button "#48ffa1 brand.luckhack.accent.primary" [ref=e868] [cursor=pointer]:
+                    - generic "#48ffa1" [ref=e870]
+                    - generic "brand.luckhack.accent.primary" [ref=e874]:
+                      - generic [ref=e875]: brand.luckhack.accent.
+                      - generic [ref=e876]: primary
+                  - button "#46d4ff brand.luckhack.accent.secondary" [ref=e877] [cursor=pointer]:
+                    - generic "#46d4ff" [ref=e879]
+                    - generic "brand.luckhack.accent.secondary" [ref=e883]:
+                      - generic [ref=e884]: brand.luckhack.accent.
+                      - generic [ref=e885]: secondary
+                  - button "#ffd166 brand.luckhack.accent.tertiary" [ref=e886] [cursor=pointer]:
+                    - generic "#ffd166" [ref=e888]
+                    - generic "brand.luckhack.accent.tertiary" [ref=e892]:
+                      - generic [ref=e893]: brand.luckhack.accent.
+                      - generic [ref=e894]: tertiary
+                  - button "#060a07 brand.luckhack.bg.base" [ref=e895] [cursor=pointer]:
+                    - generic "#060a07" [ref=e897]
+                    - generic "brand.luckhack.bg.base" [ref=e901]:
+                      - generic [ref=e902]: brand.luckhack.bg.
+                      - generic [ref=e903]: base
+                  - button "#d0ffe3 brand.luckhack.text.on-bg" [ref=e904] [cursor=pointer]:
+                    - generic "#d0ffe3" [ref=e906]
+                    - generic "brand.luckhack.text.on-bg" [ref=e910]:
+                      - generic [ref=e911]: brand.luckhack.text.
+                      - generic [ref=e912]: on-bg
+                  - button "#46d4ff brand.sihlhack.accent.primary" [ref=e913] [cursor=pointer]:
+                    - generic "#46d4ff" [ref=e915]
+                    - generic "brand.sihlhack.accent.primary" [ref=e919]:
+                      - generic [ref=e920]: brand.sihlhack.accent.
+                      - generic [ref=e921]: primary
+                  - button "#e0d54a brand.sihlhack.accent.secondary" [ref=e922] [cursor=pointer]:
+                    - generic "#e0d54a" [ref=e924]
+                    - generic "brand.sihlhack.accent.secondary" [ref=e928]:
+                      - generic [ref=e929]: brand.sihlhack.accent.
+                      - generic [ref=e930]: secondary
+                  - button "#e63b2e brand.sihlhack.accent.tertiary" [ref=e931] [cursor=pointer]:
+                    - generic "#e63b2e" [ref=e933]
+                    - generic "brand.sihlhack.accent.tertiary" [ref=e937]:
+                      - generic [ref=e938]: brand.sihlhack.accent.
+                      - generic [ref=e939]: tertiary
+                  - button "#000000 brand.sihlhack.bg.base" [ref=e940] [cursor=pointer]:
+                    - generic "#000000" [ref=e942]
+                    - generic "brand.sihlhack.bg.base" [ref=e946]:
+                      - generic [ref=e947]: brand.sihlhack.bg.
+                      - generic [ref=e948]: base
+                  - button "#cccccc brand.sihlhack.text.on-bg" [ref=e949] [cursor=pointer]:
+                    - generic "#cccccc" [ref=e951]
+                    - generic "brand.sihlhack.text.on-bg" [ref=e955]:
+                      - generic [ref=e956]: brand.sihlhack.text.
+                      - generic [ref=e957]: on-bg
+                  - button "brand.sihliconvalley.accent.primary" [ref=e958] [cursor=pointer]:
+                    - img [ref=e959]
+                    - generic "brand.sihliconvalley.accent.primary" [ref=e961]:
+                      - generic [ref=e962]: brand.sihliconvalley.accent.
+                      - generic [ref=e963]: primary
+                  - button "brand.sihliconvalley.accent.secondary" [ref=e964] [cursor=pointer]:
+                    - img [ref=e965]
+                    - generic "brand.sihliconvalley.accent.secondary" [ref=e967]:
+                      - generic [ref=e968]: brand.sihliconvalley.accent.
+                      - generic [ref=e969]: secondary
+                  - button "brand.sihliconvalley.accent.tertiary" [ref=e970] [cursor=pointer]:
+                    - img [ref=e971]
+                    - generic "brand.sihliconvalley.accent.tertiary" [ref=e973]:
+                      - generic [ref=e974]: brand.sihliconvalley.accent.
+                      - generic [ref=e975]: tertiary
+                  - button "brand.sihliconvalley.bg.base" [ref=e976] [cursor=pointer]:
+                    - img [ref=e977]
+                    - generic "brand.sihliconvalley.bg.base" [ref=e979]:
+                      - generic [ref=e980]: brand.sihliconvalley.bg.
+                      - generic [ref=e981]: base
+                  - button "brand.sihliconvalley.text.on-bg" [ref=e982] [cursor=pointer]:
+                    - img [ref=e983]
+                    - generic "brand.sihliconvalley.text.on-bg" [ref=e985]:
+                      - generic [ref=e986]: brand.sihliconvalley.text.
+                      - generic [ref=e987]: on-bg
+                  - button "#d9366b brand.sihlly.accent.primary" [ref=e988] [cursor=pointer]:
+                    - generic "#d9366b" [ref=e990]
+                    - generic "brand.sihlly.accent.primary" [ref=e994]:
+                      - generic [ref=e995]: brand.sihlly.accent.
+                      - generic [ref=e996]: primary
+                  - button "#8b5cf6 brand.sihlly.accent.secondary" [ref=e997] [cursor=pointer]:
+                    - generic "#8b5cf6" [ref=e999]
+                    - generic "brand.sihlly.accent.secondary" [ref=e1003]:
+                      - generic [ref=e1004]: brand.sihlly.accent.
+                      - generic [ref=e1005]: secondary
+                  - button "#ff4d6d brand.sihlly.accent.tertiary" [ref=e1006] [cursor=pointer]:
+                    - generic "#ff4d6d" [ref=e1008]
+                    - generic "brand.sihlly.accent.tertiary" [ref=e1012]:
+                      - generic [ref=e1013]: brand.sihlly.accent.
+                      - generic [ref=e1014]: tertiary
+                  - button "#000000 brand.sihlly.bg.base" [ref=e1015] [cursor=pointer]:
+                    - generic "#000000" [ref=e1017]
+                    - generic "brand.sihlly.bg.base" [ref=e1021]:
+                      - generic [ref=e1022]: brand.sihlly.bg.
+                      - generic [ref=e1023]: base
+                  - button "#f5f3e8 brand.sihlly.text.on-bg" [ref=e1024] [cursor=pointer]:
+                    - generic "#f5f3e8" [ref=e1026]
+                    - generic "brand.sihlly.text.on-bg" [ref=e1030]:
+                      - generic [ref=e1031]: brand.sihlly.text.
+                      - generic [ref=e1032]: on-bg
+              - generic [ref=e436]:
+                - generic [ref=e438]:
+                  - img [ref=e440]
+                  - generic [ref=e442]: Border Radius
+                - 'button "Add token: Border Radius" [ref=e444]':
+                  - img [ref=e445]
+              - generic [ref=e462]:
+                - generic [ref=e464]:
+                  - img [ref=e466]
+                  - generic [ref=e468]: Dimensions
+                - 'button "Add token: Dimensions" [ref=e470]':
+                  - img [ref=e471]
+              - generic [ref=e475]:
+                - generic [ref=e477]:
+                  - img [ref=e479]
+                  - generic [ref=e481]: Font Family
+                - 'button "Add token: Font Family" [ref=e483]':
+                  - img [ref=e484]
+              - generic [ref=e488]:
+                - generic [ref=e490]:
+                  - img [ref=e492]
+                  - generic [ref=e494]: Font Size
+                - 'button "Add token: Font Size" [ref=e496]':
+                  - img [ref=e497]
+              - generic [ref=e501]:
+                - generic [ref=e503]:
+                  - img [ref=e505]
+                  - generic [ref=e507]: Font Weight
+                - 'button "Add token: Font Weight" [ref=e509]':
+                  - img [ref=e510]
+              - generic [ref=e514]:
+                - generic [ref=e516]:
+                  - img [ref=e518]
+                  - generic [ref=e520]: Letter Spacing
+                - 'button "Add token: Letter Spacing" [ref=e522]':
+                  - img [ref=e523]
+              - generic [ref=e527]:
+                - generic [ref=e529]:
+                  - img [ref=e531]
+                  - generic [ref=e533]: Number
+                - 'button "Add token: Number" [ref=e535]':
+                  - img [ref=e536]
+              - generic [ref=e540]:
+                - generic [ref=e542]:
+                  - img [ref=e544]
+                  - generic [ref=e546]: Opacity
+                - 'button "Add token: Opacity" [ref=e548]':
+                  - img [ref=e549]
+              - generic [ref=e553]:
+                - generic [ref=e555]:
+                  - img [ref=e557]
+                  - generic [ref=e559]: Rotation
+                - 'button "Add token: Rotation" [ref=e561]':
+                  - img [ref=e562]
+              - generic [ref=e566]:
+                - generic [ref=e568]:
+                  - img [ref=e570]
+                  - generic [ref=e572]: Shadow
+                - 'button "Add token: Shadow" [ref=e574]':
+                  - img [ref=e575]
+              - generic [ref=e579]:
+                - generic [ref=e581]:
+                  - img [ref=e583]
+                  - generic [ref=e585]: Sizing
+                - 'button "Add token: Sizing" [ref=e587]':
+                  - img [ref=e588]
+              - generic [ref=e592]:
+                - generic [ref=e594]:
+                  - img [ref=e596]
+                  - generic [ref=e598]: Spacing
+                - 'button "Add token: Spacing" [ref=e600]':
+                  - img [ref=e601]
+              - generic [ref=e605]:
+                - generic [ref=e607]:
+                  - img [ref=e609]
+                  - generic [ref=e611]: Stroke Width
+                - 'button "Add token: Stroke Width" [ref=e613]':
+                  - img [ref=e614]
+              - generic [ref=e618]:
+                - generic [ref=e620]:
+                  - img [ref=e622]
+                  - generic [ref=e624]: Text Case
+                - 'button "Add token: Text Case" [ref=e626]':
+                  - img [ref=e627]
+              - generic [ref=e631]:
+                - generic [ref=e633]:
+                  - img [ref=e635]
+                  - generic [ref=e637]: Text Decoration
+                - 'button "Add token: Text Decoration" [ref=e639]':
+                  - img [ref=e640]
+              - generic [ref=e644]:
+                - generic [ref=e646]:
+                  - img [ref=e648]
+                  - generic [ref=e650]: Typography
+                - 'button "Add token: Typography" [ref=e652]':
+                  - img [ref=e653]
+            - button "Tools" [ref=e656]:
+              - img [ref=e657]
+              - generic [ref=e659]: Tools
+    - complementary [ref=e660]:
+      - generic [ref=e661]:
+        - button "+1 Gueney Usta Gueney Usta" [ref=e663] [cursor=pointer]:
+          - list [ref=e664]:
+            - generic [ref=e665]: "+1"
+            - listitem "Gueney Usta" [ref=e666]:
+              - img "Gueney Usta" [ref=e667]
+            - listitem "Gueney Usta" [ref=e668]:
+              - img "Gueney Usta" [ref=e669]
+        - generic "Zoom" [ref=e671] [cursor=pointer]:
+          - generic [ref=e672]: 100%
+        - button "Comments (C)" [ref=e674] [cursor=pointer]:
+          - img [ref=e675]
+        - button "History" [ref=e678] [cursor=pointer]:
+          - img [ref=e679]
+        - generic "View mode (G V)" [ref=e681] [cursor=pointer]:
+          - img [ref=e682]
+      - generic [ref=e686]:
+        - navigation [ref=e688]:
+          - tablist [ref=e689]:
+            - listitem [ref=e690]:
+              - tab "Design" [selected] [ref=e691]:
+                - generic [ref=e692]: Design
+            - listitem [ref=e693]:
+              - tab "Prototype" [ref=e694]:
+                - generic [ref=e695]: Prototype
+            - listitem [ref=e696]:
+              - tab "Inspect" [ref=e697]:
+                - generic [ref=e698]: Inspect
+        - tabpanel "Design" [ref=e699]:
+          - generic [ref=e701]:
+            - generic [ref=e704]: Canvas background
+            - generic [ref=e708]:
+              - button "#E8E9EA" [ref=e711] [cursor=pointer]
+              - textbox "Color" [ref=e716]:
+                - /placeholder: Mixed
+                - text: E8E9EA

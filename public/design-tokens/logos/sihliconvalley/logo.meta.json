@@ -1,0 +1,100 @@
+{
+  "brand": "sihliconvalley",
+  "icon": {
+    "shapeIds": [
+      "circle_bg",
+      "mountain_left",
+      "mountain_right",
+      "road",
+      "road_glow",
+      "sun"
+    ],
+    "shapeCount": 6,
+    "viewBox": "0 0 512 512",
+    "colorsUsed": [
+      "--token-logo-bg",
+      "--token-logo-mountain",
+      "--token-logo-road-primary",
+      "--token-logo-road-secondary",
+      "--token-logo-sun"
+    ]
+  },
+  "wordmark": {
+    "shapeIds": [
+      "wordmark"
+    ],
+    "shapeCount": 1,
+    "viewBox": "0 0 840 220",
+    "colorsUsed": [
+      "--token-font-futuristic",
+      "--token-logo-wordmark"
+    ]
+  },
+  "lockup": {
+    "shapeIds": [
+      "icon",
+      "circle_bg",
+      "mountain_left",
+      "mountain_right",
+      "road",
+      "road_glow",
+      "sun",
+      "wordmark"
+    ],
+    "shapeCount": 8,
+    "viewBox": "0 0 1400 512",
+    "colorsUsed": [
+      "--token-font-futuristic",
+      "--token-logo-bg",
+      "--token-logo-mountain",
+      "--token-logo-road-primary",
+      "--token-logo-road-secondary",
+      "--token-logo-sun",
+      "--token-logo-wordmark"
+    ]
+  },
+  "pngSizes": [
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "pngFiles": {
+    "icon": {
+      "32": "icon-32.png",
+      "64": "icon-64.png",
+      "128": "icon-128.png",
+      "256": "icon-256.png",
+      "512": "icon-512.png",
+      "1024": "icon-1024.png"
+    },
+    "wordmark": {
+      "32": "wordmark-32.png",
+      "64": "wordmark-64.png",
+      "128": "wordmark-128.png",
+      "256": "wordmark-256.png",
+      "512": "wordmark-512.png",
+      "1024": "wordmark-1024.png"
+    },
+    "lockup": {
+      "32": "lockup-32.png",
+      "64": "lockup-64.png",
+      "128": "lockup-128.png",
+      "256": "lockup-256.png",
+      "512": "lockup-512.png",
+      "1024": "lockup-1024.png"
+    }
+  },
+  "constraints": {
+    "requiredIconShapeIds": [
+      "circle_bg",
+      "mountain_left",
+      "mountain_right",
+      "road",
+      "sun"
+    ],
+    "requiredWordmarkShapeId": "wordmark"
+  }
+}

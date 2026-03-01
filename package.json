@@ -6,9 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:design-tokens": "node scripts/verify-design-tokens.mjs",
+    "lint:tokens": "node scripts/lint-token-colors.mjs",
+    "postinstall": "node scripts/sync-design-assets.mjs"
   },
   "dependencies": {
+    "@sihliconvalley/design-tokens": "file:../sihliconvalley-design-tokens",
+    "@sihliconvalley/ui": "file:../sihliconvalley-ui",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "autoprefixer": "^10.4.21",
     "highlight.js": "^11.11.1",

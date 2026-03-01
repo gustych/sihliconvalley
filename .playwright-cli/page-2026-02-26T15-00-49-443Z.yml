@@ -1,0 +1,272 @@
+- generic [ref=e1]:
+  - img
+  - img
+  - img
+  - generic [ref=e2165]:
+    - list [ref=e2169]:
+      - listitem [ref=e2170]:
+        - button "Color Palette (⌥P)" [ref=e2171] [cursor=pointer]:
+          - img [ref=e2172]
+      - listitem [ref=e2174]:
+        - button "Typographies (⌥T)" [ref=e2175] [cursor=pointer]:
+          - img [ref=e2176]
+    - generic [ref=e2635]:
+      - complementary [ref=e2636]:
+        - list [ref=e2637]:
+          - listitem [ref=e2638]:
+            - button "Move (V)" [ref=e2639] [cursor=pointer]:
+              - img [ref=e2640]
+          - listitem [ref=e2642]:
+            - button "Board (B)" [ref=e2643] [cursor=pointer]:
+              - img [ref=e2644]
+          - listitem [ref=e2646]:
+            - button "Rectangle (R)" [ref=e2647] [cursor=pointer]:
+              - img [ref=e2648]
+          - listitem [ref=e2650]:
+            - button "Ellipse (E)" [ref=e2651] [cursor=pointer]:
+              - img [ref=e2652]
+          - listitem [ref=e2654]:
+            - button "Text (T)" [ref=e2655] [cursor=pointer]:
+              - img [ref=e2656]
+          - listitem [ref=e2658]:
+            - button "Image (⇧K)" [ref=e2659] [cursor=pointer]:
+              - img [ref=e2660]
+          - listitem [ref=e2662]:
+            - button "Curve (⇧C)" [ref=e2663] [cursor=pointer]:
+              - img [ref=e2664]
+          - listitem [ref=e2666]:
+            - button "Path (P)" [ref=e2667] [cursor=pointer]:
+              - img [ref=e2668]
+          - listitem [ref=e2670]:
+            - button "Plugins (⌘⌥P)" [ref=e2671] [cursor=pointer]:
+              - img [ref=e2672]
+        - button "Toggle toolbar" [ref=e2674] [cursor=pointer]
+      - generic:
+        - img
+      - img
+      - img [ref=e2676]:
+        - generic [ref=e2677]:
+          - generic:
+            - generic:
+              - generic:
+                - text: "0"
+                - text: "50"
+                - text: "100"
+                - text: "150"
+                - text: "200"
+                - text: "250"
+                - text: "300"
+                - text: "350"
+                - text: "400"
+                - text: "450"
+                - text: "500"
+                - text: "550"
+                - text: "600"
+              - generic:
+                - text: "0"
+                - text: "50"
+                - text: "100"
+                - text: "150"
+                - text: "200"
+                - text: "250"
+                - text: "300"
+                - text: "350"
+                - text: "400"
+                - text: "450"
+                - text: "500"
+                - text: "550"
+                - text: "600"
+                - text: "650"
+                - text: "700"
+    - complementary [ref=e2227]:
+      - generic [ref=e2228]:
+        - img [ref=e2230] [cursor=pointer]
+        - generic [ref=e2232]:
+          - generic [ref=e2233] [cursor=pointer]: Design System
+          - generic "00 Tokens" [ref=e2234] [cursor=pointer]:
+            - generic "Saved" [ref=e2954]:
+              - img [ref=e2348]
+            - generic [ref=e2236]: 00 Tokens
+        - button "Main menu" [ref=e2239]:
+          - img [ref=e2240]
+      - generic [ref=e2244]:
+        - navigation [ref=e2246]:
+          - button "Collapse sidebar" [ref=e2247] [cursor=pointer]:
+            - img "Collapse sidebar" [ref=e2248]
+          - tablist [ref=e2250]:
+            - listitem [ref=e2251]:
+              - tab "Layers" [ref=e2252]:
+                - generic [ref=e2253]: Layers
+            - listitem [ref=e2254]:
+              - tab "Assets" [ref=e2255]:
+                - generic [ref=e2256]: Assets
+            - listitem [ref=e2257]:
+              - tab "Tokens" [selected] [ref=e2258]:
+                - generic [ref=e2259]: Tokens
+        - tabpanel "Tokens" [ref=e2693]:
+          - generic [ref=e2694]:
+            - generic [ref=e2695]:
+              - generic [ref=e2696]:
+                - generic [ref=e2697]: Themes
+                - generic [ref=e2698]:
+                  - text: There are no themes.
+                  - button "Create one." [ref=e2699] [cursor=pointer]
+              - generic [ref=e2701]:
+                - generic [ref=e2702]: Sets
+                - button "Add set" [ref=e2704]:
+                  - img [ref=e2705]
+              - generic [ref=e2940]:
+                - button "primitive" [ref=e2946] [cursor=pointer]:
+                  - img [ref=e2942]
+                  - generic [ref=e2948]: primitive
+                  - checkbox [ref=e2949]
+                - button [ref=e2959] [cursor=pointer]:
+                  - img [ref=e2960]
+                  - textbox "Enter name (use '/' for groups)" [active] [ref=e2962]
+            - article [ref=e2709]:
+              - generic [ref=e2712]:
+                - generic [ref=e2713]: TOKENS - primitive
+                - generic "This set is not active. Change theme or activate this set to see changes in the viewport" [ref=e2950]:
+                  - img [ref=e2951]
+                  - generic [ref=e2953]: Inactive
+              - generic [ref=e2716]:
+                - generic [ref=e2718]:
+                  - img [ref=e2720]
+                  - generic [ref=e2722]: Border Radius
+                - 'button "Add token: Border Radius" [ref=e2724]':
+                  - img [ref=e2725]
+              - generic [ref=e2729]:
+                - generic [ref=e2731]:
+                  - img [ref=e2733]
+                  - generic [ref=e2735]: Color
+                - 'button "Add token: Color" [ref=e2737]':
+                  - img [ref=e2738]
+              - generic [ref=e2742]:
+                - generic [ref=e2744]:
+                  - img [ref=e2746]
+                  - generic [ref=e2748]: Dimensions
+                - 'button "Add token: Dimensions" [ref=e2750]':
+                  - img [ref=e2751]
+              - generic [ref=e2755]:
+                - generic [ref=e2757]:
+                  - img [ref=e2759]
+                  - generic [ref=e2761]: Font Family
+                - 'button "Add token: Font Family" [ref=e2763]':
+                  - img [ref=e2764]
+              - generic [ref=e2768]:
+                - generic [ref=e2770]:
+                  - img [ref=e2772]
+                  - generic [ref=e2774]: Font Size
+                - 'button "Add token: Font Size" [ref=e2776]':
+                  - img [ref=e2777]
+              - generic [ref=e2781]:
+                - generic [ref=e2783]:
+                  - img [ref=e2785]
+                  - generic [ref=e2787]: Font Weight
+                - 'button "Add token: Font Weight" [ref=e2789]':
+                  - img [ref=e2790]
+              - generic [ref=e2794]:
+                - generic [ref=e2796]:
+                  - img [ref=e2798]
+                  - generic [ref=e2800]: Letter Spacing
+                - 'button "Add token: Letter Spacing" [ref=e2802]':
+                  - img [ref=e2803]
+              - generic [ref=e2807]:
+                - generic [ref=e2809]:
+                  - img [ref=e2811]
+                  - generic [ref=e2813]: Number
+                - 'button "Add token: Number" [ref=e2815]':
+                  - img [ref=e2816]
+              - generic [ref=e2820]:
+                - generic [ref=e2822]:
+                  - img [ref=e2824]
+                  - generic [ref=e2826]: Opacity
+                - 'button "Add token: Opacity" [ref=e2828]':
+                  - img [ref=e2829]
+              - generic [ref=e2833]:
+                - generic [ref=e2835]:
+                  - img [ref=e2837]
+                  - generic [ref=e2839]: Rotation
+                - 'button "Add token: Rotation" [ref=e2841]':
+                  - img [ref=e2842]
+              - generic [ref=e2846]:
+                - generic [ref=e2848]:
+                  - img [ref=e2850]
+                  - generic [ref=e2852]: Shadow
+                - 'button "Add token: Shadow" [ref=e2854]':
+                  - img [ref=e2855]
+              - generic [ref=e2859]:
+                - generic [ref=e2861]:
+                  - img [ref=e2863]
+                  - generic [ref=e2865]: Sizing
+                - 'button "Add token: Sizing" [ref=e2867]':
+                  - img [ref=e2868]
+              - generic [ref=e2872]:
+                - generic [ref=e2874]:
+                  - img [ref=e2876]
+                  - generic [ref=e2878]: Spacing
+                - 'button "Add token: Spacing" [ref=e2880]':
+                  - img [ref=e2881]
+              - generic [ref=e2885]:
+                - generic [ref=e2887]:
+                  - img [ref=e2889]
+                  - generic [ref=e2891]: Stroke Width
+                - 'button "Add token: Stroke Width" [ref=e2893]':
+                  - img [ref=e2894]
+              - generic [ref=e2898]:
+                - generic [ref=e2900]:
+                  - img [ref=e2902]
+                  - generic [ref=e2904]: Text Case
+                - 'button "Add token: Text Case" [ref=e2906]':
+                  - img [ref=e2907]
+              - generic [ref=e2911]:
+                - generic [ref=e2913]:
+                  - img [ref=e2915]
+                  - generic [ref=e2917]: Text Decoration
+                - 'button "Add token: Text Decoration" [ref=e2919]':
+                  - img [ref=e2920]
+              - generic [ref=e2924]:
+                - generic [ref=e2926]:
+                  - img [ref=e2928]
+                  - generic [ref=e2930]: Typography
+                - 'button "Add token: Typography" [ref=e2932]':
+                  - img [ref=e2933]
+            - button "Tools" [ref=e2936]:
+              - img [ref=e2937]
+              - generic [ref=e2939]: Tools
+    - complementary [ref=e2292]:
+      - generic [ref=e2293]:
+        - button "Gueney Usta Gueney Usta" [ref=e2945] [cursor=pointer]:
+          - list [ref=e2296]:
+            - listitem "Gueney Usta" [ref=e2297]:
+              - img "Gueney Usta" [ref=e2298]
+            - listitem "Gueney Usta" [ref=e2691]:
+              - img "Gueney Usta" [ref=e2692]
+        - generic "Zoom" [ref=e2300] [cursor=pointer]:
+          - generic [ref=e2301]: 100%
+        - button "Comments (C)" [ref=e2303] [cursor=pointer]:
+          - img [ref=e2304]
+        - button "History" [ref=e2307] [cursor=pointer]:
+          - img [ref=e2308]
+        - generic "View mode (G V)" [ref=e2310] [cursor=pointer]:
+          - img [ref=e2311]
+      - generic [ref=e2315]:
+        - navigation [ref=e2317]:
+          - tablist [ref=e2318]:
+            - listitem [ref=e2319]:
+              - tab "Design" [selected] [ref=e2320]:
+                - generic [ref=e2321]: Design
+            - listitem [ref=e2322]:
+              - tab "Prototype" [ref=e2323]:
+                - generic [ref=e2324]: Prototype
+            - listitem [ref=e2325]:
+              - tab "Inspect" [ref=e2326]:
+                - generic [ref=e2327]: Inspect
+        - tabpanel "Design" [ref=e2328]:
+          - generic [ref=e2330]:
+            - generic [ref=e2333]: Canvas background
+            - generic [ref=e2337]:
+              - button "#E8E9EA" [ref=e2340] [cursor=pointer]
+              - textbox "Color" [ref=e2345]:
+                - /placeholder: Mixed
+                - text: E8E9EA

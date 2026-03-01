@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Sihliconvalley Icon">
+  <circle id="circle_bg" cx="256" cy="256" r="248" fill="var(--token-logo-bg)" />
+  <path id="mountain_left" d="M32 312L170 170L280 312L32 312Z" fill="var(--token-logo-mountain)" />
+  <path id="mountain_right" d="M188 312L332 146L484 312L188 312Z" fill="var(--token-logo-mountain)" />
+  <path id="road" d="M194 500C212 426 262 372 340 314C302 288 280 258 274 220C218 254 164 322 138 408C130 438 124 468 120 500Z" fill="var(--token-logo-road-primary)" />
+  <path id="road_glow" d="M246 500C262 430 292 376 346 320C330 314 316 306 304 294C256 344 224 402 208 500Z" fill="var(--token-logo-road-secondary)" />
+  <circle id="sun" cx="268" cy="122" r="28" fill="var(--token-logo-sun)" />
+</svg>

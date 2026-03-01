@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - img
+  - main [ref=e864]:
+    - navigation [ref=e865]:
+      - generic [ref=e866]:
+        - button "Your Penpot" [ref=e869] [cursor=pointer]:
+          - generic [ref=e870]:
+            - img [ref=e872]
+            - generic [ref=e874]: Your Penpot
+          - img [ref=e875]
+        - generic [ref=e877]:
+          - textbox "Search…" [ref=e878]
+          - button "dashboard-search" [ref=e879] [cursor=pointer]:
+            - img [ref=e880]
+        - list [ref=e883]:
+          - listitem [ref=e884] [cursor=pointer]:
+            - generic [ref=e886]: Projects
+          - listitem [ref=e887] [cursor=pointer]:
+            - generic [ref=e889]: Drafts
+        - generic [ref=e890]:
+          - generic [ref=e891]: Sources
+          - list [ref=e892]:
+            - listitem [ref=e893] [cursor=pointer]:
+              - generic [ref=e895]: Fonts
+            - listitem [ref=e896] [cursor=pointer]:
+              - generic [ref=e898]: Libraries
+        - generic [ref=e899]:
+          - generic [ref=e900]: Pinned Projects
+          - generic [ref=e901]:
+            - img [ref=e902]
+            - generic [ref=e904]: Pinned projects will appear here
+      - generic [ref=e906] [cursor=pointer]:
+        - button "Gueney Usta Gueney Usta" [ref=e907]:
+          - img "Gueney Usta" [ref=e908]
+          - generic [ref=e909]: Gueney Usta
+        - button "View notifications" [ref=e912]:
+          - img [ref=e913]
+    - generic [ref=e915]:
+      - generic [ref=e916]:
+        - heading "Projects" [level=1] [ref=e918]
+        - button "+ New project" [ref=e919] [cursor=pointer]
+      - generic [ref=e921]:
+        - generic [ref=e923]:
+          - generic [ref=e924] [cursor=pointer]: Recent
+          - generic [ref=e925] [cursor=pointer]: Deleted
+        - article [ref=e926]:
+          - generic [ref=e928]:
+            - heading "Design System" [level=2] [ref=e929] [cursor=pointer]
+            - generic [ref=e930]:
+              - generic [ref=e931]: 2 files, 14 seconds ago
+              - generic [ref=e932]:
+                - button "Pin/Unpin" [ref=e933] [cursor=pointer]:
+                  - img [ref=e934]
+                - button "+ New File" [ref=e936] [cursor=pointer]:
+                  - img [ref=e937]
+                - button "Options" [ref=e939] [cursor=pointer]:
+                  - img [ref=e940]
+          - list [ref=e944]:
+            - listitem [ref=e945] [cursor=pointer]:
+              - button "New File 2 14 seconds ago Options" [ref=e946]:
+                - img [ref=e1092]
+                - generic [ref=e948]:
+                  - generic [ref=e949]:
+                    - heading "New File 2" [level=3] [ref=e950]
+                    - generic "Will be deleted 14 seconds ago" [ref=e951]: 14 seconds ago
+                  - button "Options" [ref=e953]:
+                    - img [ref=e954]
+            - listitem [ref=e1093] [cursor=pointer]:
+              - button "New File 1 2 minutes ago Options" [ref=e1094]:
+                - img [ref=e1096]
+                - generic [ref=e1097]:
+                  - generic [ref=e1098]:
+                    - heading "New File 1" [level=3] [ref=e1099]
+                    - generic "Will be deleted 2 minutes ago" [ref=e1100]: 2 minutes ago
+                  - button "Options" [ref=e1102]:
+                    - img [ref=e1103]
+        - article [ref=e960]:
+          - generic [ref=e962]:
+            - heading "Drafts" [level=2] [ref=e963] [cursor=pointer]
+            - generic [ref=e964]:
+              - generic [ref=e965]: 0 files, 1 hour ago
+              - generic [ref=e966]:
+                - button "+ New File" [ref=e967] [cursor=pointer]:
+                  - img [ref=e968]
+                - button "Options" [ref=e970] [cursor=pointer]:
+                  - img [ref=e971]
+          - button [ref=e976] [cursor=pointer]:
+            - img [ref=e977]
+      - generic:
+        - button "Libraries & Templates Hide" [ref=e980] [cursor=pointer]:
+          - generic [ref=e981]: Libraries & Templates
+          - generic [ref=e982]:
+            - text: Hide
+            - img [ref=e984]
+        - paragraph: Here you have some Libraries and templates you can add to your project
+        - generic [ref=e986]:
+          - generic [ref=e988] [cursor=pointer]:
+            - img "Design tokens starter kit" [ref=e990]
+            - generic [ref=e991]:
+              - generic [ref=e992]: Design tokens starter kit
+              - img [ref=e993]
+          - generic [ref=e996] [cursor=pointer]:
+            - img "Penpot Design System | Pencil" [ref=e998]
+            - generic [ref=e999]:
+              - generic [ref=e1000]: Penpot Design System | Pencil
+              - img [ref=e1001]
+          - generic [ref=e1004] [cursor=pointer]:
+            - img "Wireframe library" [ref=e1006]
+            - generic [ref=e1007]:
+              - generic [ref=e1008]: Wireframe library
+              - img [ref=e1009]
+          - generic [ref=e1012] [cursor=pointer]:
+            - img "Prototype template" [ref=e1014]
+            - generic [ref=e1015]:
+              - generic [ref=e1016]: Prototype template
+              - img [ref=e1017]
+          - generic [ref=e1020] [cursor=pointer]:
+            - generic [ref=e1021]:
+              - img "UI mockup example"
+            - generic [ref=e1022]:
+              - generic [ref=e1023]: UI mockup example
+              - img [ref=e1024]
+          - generic [ref=e1027] [cursor=pointer]:
+            - generic [ref=e1028]:
+              - img "Lucide Icons"
+            - generic [ref=e1029]:
+              - generic [ref=e1030]: Lucide Icons
+              - img [ref=e1031]
+          - generic [ref=e1034] [cursor=pointer]:
+            - generic [ref=e1035]:
+              - img "Font Awesome"
+            - generic [ref=e1036]:
+              - generic [ref=e1037]: Font Awesome
+              - img [ref=e1038]
+          - generic [ref=e1041] [cursor=pointer]:
+            - generic [ref=e1042]:
+              - img "Black & White Mobile Templates"
+            - generic [ref=e1043]:
+              - generic [ref=e1044]: Black & White Mobile Templates
+              - img [ref=e1045]
+          - generic [ref=e1048] [cursor=pointer]:
+            - generic [ref=e1049]:
+              - img "Avataaars"
+            - generic [ref=e1050]:
+              - generic [ref=e1051]: Avataaars
+              - img [ref=e1052]
+          - generic [ref=e1055] [cursor=pointer]:
+            - generic [ref=e1056]:
+              - img "UX Notes"
+            - generic [ref=e1057]:
+              - generic [ref=e1058]: UX Notes
+              - img [ref=e1059]
+          - generic [ref=e1062] [cursor=pointer]:
+            - generic [ref=e1063]:
+              - img "Whiteboarding Kit"
+            - generic [ref=e1064]:
+              - generic [ref=e1065]: Whiteboarding Kit
+              - img [ref=e1066]
+          - generic [ref=e1069] [cursor=pointer]:
+            - generic [ref=e1070]:
+              - img "Open Color Scheme"
+            - generic [ref=e1071]:
+              - generic [ref=e1072]: Open Color Scheme
+              - img [ref=e1073]
+          - generic [ref=e1076] [cursor=pointer]:
+            - generic [ref=e1077]:
+              - img "Flex Layout Playground"
+            - generic [ref=e1078]:
+              - generic [ref=e1079]: Flex Layout Playground
+              - img [ref=e1080]
+          - link "Libraries & Templates Explore more of them and know how to contribute" [ref=e1085] [cursor=pointer]:
+            - /url: https://penpot.app/libraries-templates
+            - generic [ref=e1086]:
+              - generic [ref=e1087]: Libraries & Templates
+              - generic [ref=e1088]: Explore more of them and know how to contribute
+        - button "Next" [ref=e1089] [cursor=pointer]:
+          - img [ref=e1090]
