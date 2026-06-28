@@ -30,6 +30,13 @@ const projects: Project[] = [
     tags: ['Go', 'PostgreSQL', 'SSH', 'Next.js', 'Docker', 'Caddy'],
     liveUrl: 'https://luckhack.ch',
   },
+  {
+    id: 'openleg',
+    title: 'openLEG',
+    description: 'Swiss-sovereign AI compute prototype using retired servers, solar energy, heat recovery, and local observability.',
+    tags: ['Python', 'FastAPI', 'DuckDB', 'TimescaleDB', 'Grafana', 'Docker'],
+    liveUrl: 'https://openleg.ch',
+  },
 ];
 
 export default function Home() {

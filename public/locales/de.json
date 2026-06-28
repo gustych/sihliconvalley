@@ -25,6 +25,10 @@
     "luckhack": {
       "title": "LuckHack",
       "description": "CTF-Statistik-Hackathon mit SSH-Terminalzugang. Teams lösen Wahrscheinlichkeits- und Statistikaufgaben in einer Terminalumgebung."
+    },
+    "openleg": {
+      "title": "openLEG",
+      "description": "Schweizer KI-Compute-Prototyp mit ausgemusterten Servern, Solarenergie, Wärmerückgewinnung und lokaler Observability."
     }
   }
 }

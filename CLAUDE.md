@@ -6,7 +6,7 @@
 - **Domain:** sihliconvalley.ch
 - **Repo:** github.com/wgusta/sihliconvalley
 - **Purpose:** Community project showcase site (Star Wars crawl intro, then project cards)
-- **Projects shown:** SihlHack (sihlhack.ch), LuckHack (luckhack.ch)
+- **Projects shown:** SihlHack (sihlhack.ch), LuckHack (luckhack.ch), openLEG (openleg.ch)
 - **NOT:** gusty.ch, not a personal portfolio, not Güney Usta's portfolio
 
 ## Tech
