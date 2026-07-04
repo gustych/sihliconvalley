@@ -28,7 +28,7 @@
     },
     "openleg": {
       "title": "openLEG",
-      "description": "Schweizer KI-Compute-Prototyp mit ausgemusterten Servern, Solarenergie, Wärmerückgewinnung und lokaler Observability."
+      "description": "Open-Source-Infrastruktur für Schweizer Lokale Elektrizitätsgemeinschaften, mit der Bewohner lokalen Strom teilen, Gemeinden die Solarnutzung nach BFS-Nummer vergleichen und Betreiber die Mitgliederabrechnung verwalten."
     }
   }
 }
