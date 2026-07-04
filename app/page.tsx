@@ -33,8 +33,8 @@ const projects: Project[] = [
   {
     id: 'openleg',
     title: 'openLEG',
-    description: 'Swiss-sovereign AI compute prototype using retired servers, solar energy, heat recovery, and local observability.',
-    tags: ['Python', 'FastAPI', 'DuckDB', 'TimescaleDB', 'Grafana', 'Docker'],
+    description: 'Open-source infrastructure for Swiss Local Electricity Communities where residents share local electricity, municipalities compare solar utilization by BFS number, and operators manage member billing.',
+    tags: ['Python', 'Flask', 'PostgreSQL', 'Redis', 'Caddy', 'Docker'],
     liveUrl: 'https://openleg.ch',
   },
 ];
