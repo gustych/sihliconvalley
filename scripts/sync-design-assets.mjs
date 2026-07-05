@@ -19,8 +19,8 @@ const files = [
 ];
 
 if (!fs.existsSync(packageRoot)) {
-  console.error(`Missing design-tokens package at ${packageRoot}`);
-  process.exit(1);
+  console.warn(`Skipping design asset sync: no design-tokens package at ${packageRoot}`);
+  process.exit(0);
 }
 
 fs.mkdirSync(brandDest, { recursive: true });
