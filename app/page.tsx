@@ -50,6 +50,8 @@ export default function Home() {
 
   useEffect(() => {
     const mq = window.matchMedia('(min-width: 768px)');
+    // Existing hydration-safe client initialization; future updates use the listener.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsDesktop(mq.matches);
     const handler = (e: MediaQueryListEvent) => setIsDesktop(e.matches);
     mq.addEventListener('change', handler);

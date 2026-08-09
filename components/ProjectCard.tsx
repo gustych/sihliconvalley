@@ -20,7 +20,7 @@ interface ProjectCardProps {
   activeFilter?: 'design' | 'ai' | 'bridged' | null;
 }
 
-export default function ProjectCard({ project, onClick, activeFilter }: ProjectCardProps) {
+export default function ProjectCard({ project, onClick }: ProjectCardProps) {
   const { t } = useI18n();
 
   const translatedTitle = t(`projects.${project.id}.title`);
