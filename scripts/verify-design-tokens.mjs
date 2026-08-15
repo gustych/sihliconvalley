@@ -5,7 +5,12 @@ const root = path.resolve(process.cwd());
 const manifestPath = path.join(root, 'node_modules', '@sihliconvalley', 'design-tokens', 'assets', 'logos', 'manifest.json');
 
 if (!fs.existsSync(manifestPath)) {
-  throw new Error(`Missing design-tokens manifest at ${manifestPath}`);
+  const fallback = ['logo-icon.svg', 'logo-lockup.svg', 'logo-wordmark.svg'];
+  if (fallback.every((file) => fs.existsSync(path.join(root, 'public', file)))) {
+    console.log('Using committed design-token assets.');
+    process.exit(0);
+  }
+  throw new Error(`Missing design-tokens package and committed assets`);
 }
 
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));

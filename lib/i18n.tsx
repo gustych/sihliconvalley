@@ -33,6 +33,8 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     const saved = localStorage.getItem('lang') as Lang | null;
     if (saved === 'de' || saved === 'en') {
+      // Read browser-only preference after hydration.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLangState(saved);
     }
   }, []);

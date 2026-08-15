@@ -19,6 +19,8 @@ export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCra
 
   useEffect(() => {
     const mq = window.matchMedia('(min-width: 768px)');
+    // Existing hydration-safe client initialization; future updates use the listener.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsDesktop(mq.matches);
     const handler = (e: MediaQueryListEvent) => setIsDesktop(e.matches);
     mq.addEventListener('change', handler);
@@ -29,6 +31,8 @@ export default function StarWarsCrawl({ onComplete, onPhaseChange }: StarWarsCra
     const timers: ReturnType<typeof setTimeout>[] = [];
 
     if (!isDesktop) {
+      // Reset animation when the media-query mode changes.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setPhase('intro');
       onPhaseChange?.('intro');
 
