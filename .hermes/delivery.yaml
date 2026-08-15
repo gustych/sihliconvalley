@@ -1,0 +1,53 @@
+{
+  "apiVersion": "hermes.delivery/v1",
+  "kind": "RepositoryDelivery",
+  "metadata": {
+    "id": "sihliconvalley",
+    "repository": "gustych/sihliconvalley"
+  },
+  "spec": {
+    "class": "vercel_git",
+    "provider": "vercel_git",
+    "productionMode": "merge",
+    "enabled": false,
+    "actions": {
+      "check": {
+        "workflow": ".github/workflows/design-system.yml",
+        "environment": null,
+        "approval": "none",
+        "inputs": []
+      },
+      "preview": {
+        "workflow": null,
+        "environment": "preview",
+        "approval": "merge",
+        "inputs": []
+      },
+      "health": {
+        "workflow": null,
+        "environment": "production",
+        "approval": "none",
+        "inputs": []
+      }
+    },
+    "standards": {
+      "immutableRelease": true,
+      "requiredChecks": [
+        "npm ci",
+        "lint",
+        "typecheck",
+        "design-system guard",
+        "production build"
+      ],
+      "backup": "Not applicable to Vercel application delivery",
+      "migration": "Any future data migration requires a separate reviewed operation",
+      "health": "Vercel deployment and GitHub check status",
+      "rollback": "Use a known-good Vercel deployment",
+      "onboardingBlockers": [
+        "Replace non-deterministic npm install in CI with npm ci",
+        "Add lint and typecheck to required CI",
+        "Protect main with the complete required check"
+      ]
+    }
+  }
+}
